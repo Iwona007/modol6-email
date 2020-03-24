@@ -32,10 +32,6 @@ public class VideoController {
         return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
 
-    public void getById(Long Id) {
-        videoService.getById(Id);
-    }
-
     public long addNextId() {
         return videoService.addNextId();
     }

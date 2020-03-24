@@ -9,8 +9,6 @@ public interface VideoService {
 
     boolean addVideo(Video video);
 
-    void getById(Long id);
-
    long addNextId();
 
 }

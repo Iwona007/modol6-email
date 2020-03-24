@@ -35,15 +35,11 @@ public class VideoServiceImpl implements VideoService {
     public boolean addVideo(Video video) {
         boolean add = videos.add(video);
         if (add) {
-            emailSender.sendEmail("iwonka.adamkiewicz@gmail.com", "Test", "test", false);
+            emailSender.sendEmail("test222test222mail@gmail.com", "Video List",
+                    "Your movie has been added to Video list", true);
             return true;
         }
         return false;
-    }
-
-    @Override
-    public void getById(Long id) {
-        videos.stream().filter(video -> video.getId() == id).findFirst().get();
     }
 
     @Override
