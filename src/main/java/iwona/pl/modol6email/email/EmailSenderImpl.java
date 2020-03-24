@@ -18,7 +18,7 @@ public class EmailSenderImpl implements EmailSender {
     public void sendEmail(String to, String subject, String content, boolean isHtmlContent) {
             SimpleMailMessage msg = new SimpleMailMessage();
             msg.setTo(to);
-            msg.setFrom("Blog example <iwonka.adamkiewicz@gmail.com>");
+            msg.setFrom("Video list <test222test222mail@gmail.com>");
             msg.setSubject(subject);
             msg.setText(content);
             javaMailSender.send(msg);

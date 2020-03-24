@@ -17,10 +17,9 @@ public class emailController {
 
     @GetMapping("/sendemail")
     public String sendEmail() {
-        emailSender.sendEmail("iwonka.adamkiewicz@gmail.com",
-                "Test e-mail",
-                "Testing email functionality", true);
-
+        emailSender.sendEmail("test222test222mail@gmail.com",
+                "Video list",
+                "Your video has been added to the list", true);
         return "E-mail sent!";
     }
 }
