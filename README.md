@@ -9,6 +9,12 @@ To jak wysłać maila poprzez mechanizm dostarczony przez Spring jest Twoją pra
 Pamiętaj, że wysyłka maila ma odbywać się z wykorzystaniem aspektu! 
 Zastosuj odpowiednia poradę po dodaniu nowego elementu do listy ?
 
+Technology:
+java 1.8
+AOP
+GUI: Vaadin 14.1.20
+mail: gmail
+    
 GUI
 ![snapshot](https://github.com/Iwona007/modol6-email/blob/master/snapshot/GUI.PNG)
 Add movie
