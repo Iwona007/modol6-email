@@ -46,5 +46,4 @@ public class VideoServiceImpl implements VideoService {
     public long addNextId() {
         return videos.size() + 1;
     }
-
 }

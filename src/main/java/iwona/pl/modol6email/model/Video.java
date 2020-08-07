@@ -17,7 +17,6 @@ public class Video {
         this.title = title;
         this.yearOfProduction = yearOfProduction;
     }
-
     public Video() {
     }
 
@@ -53,7 +52,6 @@ public class Video {
                 ", year Of Production = " + yearOfProduction + "\'" +
                 "}";
     }
-
     @Override
     public boolean equals(Object obj){
         if(this == obj){

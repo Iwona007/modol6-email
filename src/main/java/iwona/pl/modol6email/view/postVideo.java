@@ -1,6 +1,5 @@
 package iwona.pl.modol6email.view;
 
-
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.notification.Notification;
@@ -9,7 +8,6 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import iwona.pl.modol6email.controller.VideoController;
 import iwona.pl.modol6email.model.Video;
-import java.util.Objects;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Route("addVideo")
