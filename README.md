@@ -8,3 +8,16 @@ To jak wysłać maila poprzez mechanizm dostarczony przez Spring jest Twoją pra
 
 Pamiętaj, że wysyłka maila ma odbywać się z wykorzystaniem aspektu! 
 Zastosuj odpowiednia poradę po dodaniu nowego elementu do listy ?
+
+GUI
+![snapshot](https://github.com/Iwona007/modol6-email/blob/master/snapshot/GUI.PNG)
+Add movie
+![snapshot](https://github.com/Iwona007/modol6-email/blob/master/snapshot/add-video.PNG)
+
+email message
+![snapshot](https://github.com/Iwona007/modol6-email/blob/master/snapshot/email.PNG)
+
+confirm- movie has been added
+![snapshot](https://github.com/Iwona007/modol6-email/blob/master/snapshot/added-movie.PNG)
+
+
